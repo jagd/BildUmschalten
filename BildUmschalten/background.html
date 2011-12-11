@@ -23,9 +23,9 @@ chrome.experimental.webRequest.onBeforeRequest.addListener(
 function refresh_icon()
 {
 	if (allow_image) {
-		chrome.browserAction.setIcon({path: "on.png"});
+		chrome.browserAction.setIcon({path: "allow.png"});
 	} else {
-		chrome.browserAction.setIcon({path: "off.png"});
+		chrome.browserAction.setIcon({path: "disallow.png"});
 	}
 }
 

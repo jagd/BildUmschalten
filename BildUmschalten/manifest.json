@@ -5,7 +5,7 @@
 	, "permissions": ["tabs", "*://*/*", "experimental", "webRequest", "webRequestBlocking"]
 	, "background_page": "background.html"
 	, "browser_action": {
-		"default_icon": "off.png"
+		"default_icon": "disallow.png"
 	}
 	, "background_page": "background.html"
 	, "offline_enabled": false

@@ -2,3 +2,9 @@ Google Chrome/Chromium Browser extention.
 
 Enable / disable images with a shortcut button.
 In order to save data volume for some situation. (e.g. surfing with mobile device)
+
+
+NOTE:
+	Chrome / Chromium 16 is tested with version 0.1 and 0.2 need experimental features (chrome://flags)
+	Chrome 17 not tested
+	Chrome 18 does not need experiment flag, which can use version 0.4

@@ -1,6 +1,8 @@
 {
 	"name": "BildUmschalten"
-	, "version": "0.2"
+	, "manifest_version": 2
+	, "content_security_policy": "default-src 'self' "
+	, "version": "0.3"
 	, "description": "to enable/disable images, with a shortcut button. It uses experimental apis !!"
 	, "permissions": ["tabs", "*://*/*", "experimental", "webRequest", "webRequestBlocking"]
 	, "background_page": "background.html"

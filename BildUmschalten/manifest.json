@@ -2,9 +2,10 @@
 	"name": "BildUmschalten"
 	, "minimum_chrome_version": "18"
 	, "version": "0.4"
+	, "homepage_url": "https://github.com/jagd/BildUmschalten"
 	, "manifest_version": 2
 	, "content_security_policy": "default-src 'self' "
-	, "description": "to enable/disable images, with a shortcut button."
+	, "description": "A shortcut button to (un-) block images. Specially suitable for surfing with UMTS/EDGE/GPRS sticks."
 	, "permissions": ["tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking"]
 	, "background_page": "background.html"
 	, "browser_action": {

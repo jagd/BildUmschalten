@@ -1,11 +1,11 @@
 {
 	"name": "BildUmschalten"
 	, "minimum_chrome_version": "18"
-	, "version": "0.3"
+	, "version": "0.4"
 	, "manifest_version": 2
 	, "content_security_policy": "default-src 'self' "
-	, "description": "to enable/disable images, with a shortcut button. It uses experimental apis !!"
-	, "permissions": ["tabs", "*://*/*", "experimental", "webRequest", "webRequestBlocking"]
+	, "description": "to enable/disable images, with a shortcut button."
+	, "permissions": ["tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking"]
 	, "background_page": "background.html"
 	, "browser_action": {
 		"default_icon": "disallow.png"

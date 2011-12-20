@@ -2,8 +2,6 @@ var allow_image=false;
 
 function image_callback(info)
 {
-	// console.log("catched: " + info.url);
-	// return {redirectUrl: };
 	return {cancel: !allow_image};
 }
 

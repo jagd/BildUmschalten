@@ -1,7 +1,7 @@
 .PHONY:all
 
 chrome:=chromium
-keyfile:=BildUmschalten.pem
+keyfile:=BildUmschalten/BildUmschalten.pem
 
 all:
 	if [ -r $(keyfile) ]; then \

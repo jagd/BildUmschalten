@@ -1,11 +1,12 @@
 .PHONY:all
 
 chrome:=chromium
-keyfile:=BildUmschalten/BildUmschalten.pem
+dir:=BildUmschalten
+keyfile=$(dir)/key.pem
 
 all:
 	if [ -r $(keyfile) ]; then \
-		$(chrome) --pack-extension=BildUmschalten/ --pack-extension-key=$(keyfile) ; \
+		$(chrome) --pack-extension=$(dir) --pack-extension-key=$(keyfile) ; \
 	else \
-		$(chrome) --pack-extension=BildUmschalten/ ; \
+		$(chrome) --pack-extension=$(dir) ; \
 	fi

@@ -1,6 +1,6 @@
 {
 	"name": "BildUmschalten"
-	, "minimum_chrome_version": "18"
+	, "minimum_chrome_version": "17"
 	, "version": "0.4"
 	, "homepage_url": "https://github.com/jagd/BildUmschalten"
 	, "manifest_version": 2
